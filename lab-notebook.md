@@ -1,6 +1,6 @@
-#### GROUP PROJECT MEETING NOTES 4/17
+# GROUP PROJECT MEETING NOTES 4/17
 
-###First In-Person Meeting
+## First In-Person Meeting
 
 Over the weekend, Sparks set up a Github Repo that contained a readme markdown file and all the csv files derived from Kaggle
 	He added branches for each member of the group
@@ -9,7 +9,7 @@ Additionally, he set up a Trello board that states the deliverables of the proje
 
 (TL;DR Sparks won the first weekend)
 
-## Discussing Next Steps:
+### Discussing Next Steps:
 
 merge weather and train datasets on date
 write script (.py, .ipynb file) to open datasets (one of the deliverables asked for)
@@ -32,11 +32,11 @@ create Annotated Bibliography
 
 
 
-####MEETING NOTES 4/18
+# MEETING NOTES 4/18
 
 Monday night, Sparks cleaned all the data. You go, Glen Coco.
 
-##Going Over Sparks' Data Cleaning:
+## Going Over Sparks' Data Cleaning:
 
 EDA (re: Ritika's function)
 
@@ -50,7 +50,7 @@ Cleaning Weather Data:
 
 Basically everything is almost 100% sanitized --- A couple of missing values (maybe 30-40 total observations), to be filled by Miranda on Tuesday (4/18) night
 
-## Discussing Next Steps:
+### Discussing Next Steps:
 
 -create EDA markdown file (Sparks)
 
