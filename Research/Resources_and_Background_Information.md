@@ -24,8 +24,3 @@ https://www.cdc.gov/westnile/resources/pdfs/data/2-West-Nile-virus-disease-cases
 https://www.cdc.gov/westnile/resources/pdfs/wnvGuidelines.pdf
 	The CDC's magnum opus on WNV prevention/management
 
-http://www.meepi.org/wnv/overkill.htm
-
-https://diseasemaps.usgs.gov/mapviewer/
-
-
