@@ -66,3 +66,44 @@ pdfs of relevant scientific journal articles (Miranda for initialization)
 -GIT ISSUES (Sparks/Miranda)
 
 
+
+# MEETING NOTES 4/23
+
+Final Cleaning and EDA, last steps in pre-modeling
+finishing up Scientific Method documentation and research
+writing Problem Statement (Sparks)
+Ray wants to use LDA (Ray)
+
+
+## WEEK OF MONDAY, 4/24:
+
+Feature Selection and Visual EDA (Miranda)
+Creating master dataframe that combines weather, spray, and train or (exclusive or) test data for modeling (Sparks)
+Discussion of what existing research, background information tells us about what features might be most predictive (Group)
+
+Individual running of models on train data only, followed by models fit on train data and submitted to Kaggle
+
+Kaggle scores derived from ROC-AUC scores
+NB: private score derived from 70% test dataset, public score derived from 30% test dataset
+
+First model submitted, Random Forest on all features in master dataframe, receives 96% accuracy but only 63% ROC-AUC score for train-test-split within train data. Once submitted to Kaggle, performs @ 62%
+
+Best performing model receives 74.8% ROC-AUC score on Kaggle
+	Gradient Boosting Classifier with tuned parameters and 9 features 
+	features included were chosen from Random Forest feature importance, those that performed best
+
+Models that used 6, 7, 8, 10, and 11 features performed worse
+
+XGBoost did not outperform Gradient Boosted Trees
+
+Pipeline of Random Forest and Gradient Boosting underperformed both Random Forest and Gradient Boost performed independently
+
+
+What are the takeaways? What can we recommend to the Chicago Department of Public Health?
+
+*Those traps that have seen WNV before are more likely to see it again, so respray in those areas
+*WNV spikes after Mosquito populations spike mid-to-late summer, concentrate spraying at these times
+*C. pipiens is unsurprisingly the species most often responsible for carrying WNV, perhaps target more specifically
+
+
+
